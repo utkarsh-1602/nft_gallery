@@ -1,3 +1,10 @@
+#NFT Gallery
+![Collection](1.png?raw=true "collection1")
+![Collection](2.png?raw=true "collection2")
+![Collection](3.png?raw=true "collection3")
+![Collection](4.png?raw=true "collection4")
+
+
 # Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
