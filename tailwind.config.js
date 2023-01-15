@@ -7,6 +7,8 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    Rampart: ["Rampart One", "cursive"],
+    Prompt: ["Prompt", "san-serif"],
   },
   plugins: [],
 }
