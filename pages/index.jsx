@@ -49,13 +49,13 @@ const Home = () => {
   }
   return (
     
-    <div className="flex flex-col items-center justify-center py-8 gap-y-3 dark:bg-slate-900">
-      <div className='text-xl font-Prompt text-white p-5 lg:px-6 md:mx-2 rounded bg-green-800'>Utkarsh's NFT Gallery</div>
+    <div className="flex flex-col items-center justify-center py-8 gap-y-3 bg-gradient-to-r from-fuchsia-500 to-blue-700">
+      <div className='text-xl font-Prompt text-white p-5 lg:px-6 md:mx-2 rounded bg-gradient-to-r from-slate-900 to-slate-700 drop-shadow-xl font-poppins'>Utkarsh's NFT Gallery</div>
       <div className="flex flex-col w-full justify-center items-center gap-y-2">
         <input disabled={fetchForCollection} className='w-2/5 bg-slate-170 py-2 px-2 rounded-lg text-gray-600 focus:outline-blue-400 disabled:bg-gray-500 disabled:text-white-100' onChange={(e)=>{setWalletAddress(e.target.value)}} value={wallet} type={"text"} placeholder="Add your wallet address"></input>
         <input className='w-2/5 bg-slate-170 py-2 px-2 rounded-lg text-gray-600 focus:outline-blue-400 disabled:bg-red-100 disabled:text-slate-10' onChange={(e)=>{setCollectionAddress(e.target.value)}} value={collection} type={"text"} placeholder="Add the collection address"></input>
-        <label className=" text-gray-300"><input onChange={(e)=>{setFetchForCollection(e.target.checked)}} type={"checkbox"} className="mr-2"></input>Fetch for collection</label>
-        <button id="animatebtn" className={" disabled:bg-slate-500 rounded-lg text-white bg-blue-600 px-4 py-2 mt-3 rounded-sm w-1/5"} 
+        <label className=" text-white"><input onChange={(e)=>{setFetchForCollection(e.target.checked)}} type={"checkbox"} className="mr-2"></input>Fetch for collection</label>
+        <button id="animatebtn" className={" disabled:bg-slate-500 rounded-lg text-white bg-gradient-to-r from-amber-500 to-pink-500 px-4 py-2 mt-3 rounded-sm w-1/5"} 
           onClick={() => {    
             document.getElementById('animatebtn').style
             if (fetchForCollection) {

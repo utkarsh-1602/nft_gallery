@@ -7,8 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {},
-    Rampart: ["Rampart One", "cursive"],
+    fontFamily: {
+      Rampart: ["Rampart One", "cursive"],
     Prompt: ["Prompt", "san-serif"],
+    'poppins': ['Poppins', 'sans-serif'],
+    body: ['Comfortaa']
+    }
+    
   },
   plugins: [],
 }
